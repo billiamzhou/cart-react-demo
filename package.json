@@ -36,5 +36,20 @@
   "scripts": {
     "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js \"test/**/*@(.js|.jsx)\"",
     "test:watch": "npm run test -- --watch"
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
+  "main": "webpack.config.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/billiamzhou/cart-react-demo.git"
+  },
+  "author": "zhouhuang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/billiamzhou/cart-react-demo/issues"
+  },
+  "homepage": "https://github.com/billiamzhou/cart-react-demo#readme"
 }

@@ -2,13 +2,14 @@
  * Created by zhouhuang on 2017/1/17.
  */
 import React from 'react';
-import TotalPriceBar from 'TotalPriceBar';
-import StatementsButton from 'StatementsButton';
+import TotalPriceBar from './TotalPriceBar';
+import StatementsButton from './StatementsButton';
+import { Row } from 'reactstrap';
 export default React.createClass({
     render: function() {
-        return <div className="title">
+        return <Row>
             <TotalPriceBar/>
             <StatementsButton/>
-        </div>;
+        </Row>;
     }
 });

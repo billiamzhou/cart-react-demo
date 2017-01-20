@@ -17,7 +17,7 @@ module.exports = {
     ],
     module: {
         loaders: [{
-            test: /\.jsx?$/,
+            test: /\.js?$/,
             exclude: /node_modules/,
             loader: 'react-hot!babel'
         },{
@@ -33,7 +33,7 @@ module.exports = {
     },
     output: {
         path: __dirname + '/dist',
-        publicPath: '/public',
+        publicPath: '/dist',
         filename: 'bundle.js'
     },
     devServer: {

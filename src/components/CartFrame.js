@@ -6,13 +6,14 @@ import TopTitle from './TopTitle';
 import AddressBar from './AddressBar';
 import Footer from './Footer';
 import GoodsList from './GoodsList';
+import { Container, Row, Col } from 'reactstrap';
 export default React.createClass({
     render: function() {
-        return <div className="cart">
+        return <Container >
             <TopTitle/>
             <AddressBar/>
-            <GoodsList/>
+            <GoodsList goodsList={this.props.goodsList}/>
             <Footer/>
-        </div>;
+        </Container>;
     }
 });

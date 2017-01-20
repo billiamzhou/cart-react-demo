@@ -3,3 +3,27 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+.topTitle {
+  text-align: -webkit-center;
+}
+.addressBar {
+  background-color: grey;
+}
+.goodsList {
+  background-color: orange;
+}
+.goods > div {
+  display: flex;
+  display: -webkit-flex;
+}
+.footer > div {
+  display: inline-block;
+}
+.totalPriceBar {
+  width: 80%;
+}
+.statementsButton {
+  background-color: red;
+  box-sizing: border-box;
+
+}
